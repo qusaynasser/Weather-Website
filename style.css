@@ -1,0 +1,106 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body
+{
+    background-color: black;
+} 
+.card
+{
+    text-align: center;
+    margin: 150px auto;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    max-width: 350px;
+    min-height: 120px;
+    height: fit-content;
+    border-radius: 20px;
+    
+}
+.serach
+{
+    padding-top: 30px;
+}
+.serach input
+{
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.serach ::placeholder
+{
+    font-size: 16px;
+}
+.serach button
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.serach button:hover
+{
+    background-color: #00feba;
+    transform: scale(130%);
+    -webkit-transform: scale(130%);
+    -moz-transform: scale(130%);
+    -ms-transform: scale(130%);
+    -o-transform: scale(130%);
+}
+.temp
+{
+    font-size: 40px;
+}
+.city
+{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.detalis
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    position: relative;
+}
+.typeDetils
+{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.imgweth
+{
+    position: absolute;
+    left: 60px;
+    top: 2px;
+}
+.imgwethaer
+{
+    position: absolute;
+    left: 175px;
+}
+
+.wheather
+{
+    display: none;
+}
+
+.error
+{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 40px;
+    position: relative;
+    top: -35px;
+    left: 60px;
+    display: none;
+}
